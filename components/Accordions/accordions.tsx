@@ -3,10 +3,10 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { FaqsType } from '../components/faqs/faqsData'
+import { FaqsType } from '../faqs/faqsData'
 import Accordion from "@mui/material/Accordion"
 
-export default function Accordions ({ id, question, answer }: FaqsType) {
+export default function Accordions({ id, question, answer }: FaqsType) {
     return (
         <div key={id}>
             <Accordion>

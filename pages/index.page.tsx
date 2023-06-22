@@ -11,7 +11,7 @@ const Index: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <BodySingle title={"Sample"}>
+            <BodySingle title={"🦸‍♂️⚡️!!WELCOME TO THE MARVEL STORE!!🎉👸🏻"}>
             </BodySingle>
         </>
     )

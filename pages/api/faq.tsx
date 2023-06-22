@@ -1,7 +1,7 @@
 import React from "react";
 import { faqsData } from "../../components/faqs/faqsData"
 import { FaqsType } from "../../components/faqs/faqsData";
-import Accordions from "../../components/accordions"
+import Accordions from "../../components/Accordions/accordions"
 
 export const getStaticPops = async () => {
     const resp = await fetch("https://my-marvel-store.vercel.app/api/faq");
